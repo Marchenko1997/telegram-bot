@@ -18,7 +18,7 @@ main = ReplyKeyboardMarkup(
 catalog = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="T-shirts", callback_data="t-shirts")],
-        [InlineKeyboardButton(text="Shoes", callback_data="shoes")],
+        [InlineKeyboardButton(text="Snickers", callback_data="snickers")],
         [InlineKeyboardButton(text="Hats", callback_data="hats")],
     ]
 )
